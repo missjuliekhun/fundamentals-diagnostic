@@ -145,8 +145,8 @@ Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 304 bytes | 0 bytes/s, done.
 Total 3 (delta 2), reused 0 (delta 0)
 To git@github.com:<GitHub username>/fundamentals-diagnostic.git
-   6569581..f692d23  response -> response
-$ 
+ * [new branch]      response -> response
+$
 ```
 
 #### Create a Pull Request
