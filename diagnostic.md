@@ -4,7 +4,7 @@
 
 ## Question 1
 
-```bash
+```sh
 Graces-MacBook-Pro:~ grace$ mkdir wdi
 Graces-MacBook-Pro:~ grace$ cd wdi
 Graces-MacBook-Pro:wdi grace$ pwd
