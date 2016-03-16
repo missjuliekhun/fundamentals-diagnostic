@@ -93,12 +93,13 @@ var teamMember = {
 
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of `teamMember['name']['surname']`?
 
-```teamMember['hobby'] = 'exercise'
+```
+teamMember['hobby'] = 'exercise';
 
 teamMember['name'] = {
   given: 'Jason',
   surname: 'Weeks'
-}
+};
 
-teamMember['name']['surname'] = 'Weeks'
+teamMember['name']['surname'] = 'Weeks';
 ```
