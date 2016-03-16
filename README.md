@@ -29,14 +29,14 @@ GitHub creates a copy of the repository and redirects the browser.
 Open a terminal window then at the shell prompt:
 
 ```sh
-$ cd
+$ cd ~
 $ mkdir wdi
 $ cd wdi
 $ mkdir diagnostics
 $ cd diagnostics
 ```
 
-The first `cd` - change directory - ensures that you start in your home directory/folder.
+The first `cd ~` - change directory - ensures that you start in your home directory/folder.
 
 `mkdir` creates a new directory/folder with the supplied name.  If you get an error message that includes `File exists` when you run `mkdir` it probably means you've already created the directory and can move on to the following `cd`.
 
