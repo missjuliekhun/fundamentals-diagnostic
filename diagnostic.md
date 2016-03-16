@@ -50,14 +50,14 @@ _Replace this text with your answer._
 ## Question 5
 
 ```js
-var strangeAdd = function strangeAdd(a, b) {
+var strangeAdd = function(a, b) {
   if (a > 0 || b > 0) {
-    return a + b;    
+    return a + b;
   }
   return a - b;
 };
 
-var result = add(0, -5);
+var result = strangeAdd(0, -5);
 ```
 
 What is the value of result?  Explain your answer.
