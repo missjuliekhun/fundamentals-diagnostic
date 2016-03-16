@@ -159,3 +159,8 @@ Additional GitHub help articles.
 
 - [Fork A Repo](https://help.github.com/articles/fork-a-repo/)
 - [Cloning a repository](https://help.github.com/articles/cloning-a-repository/)
+
+## [License](LICENSE)
+
+Source code distributed under the MIT license. Text and other assets copyright
+General Assembly, Inc., all rights reserved.
