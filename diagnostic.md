@@ -93,7 +93,7 @@ var teamMember = {
 
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of `teamMember['name']['surname']`?
 
-```
+```javascript
 teamMember['hobby'] = 'exercise';
 
 teamMember['name'] = {
