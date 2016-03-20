@@ -29,11 +29,11 @@ GitHub creates a copy of the repository and redirects the browser.
 Open a terminal window then at the shell prompt:
 
 ```sh
-$ cd ~
-$ mkdir wdi
-$ cd wdi
-$ mkdir diagnostics
-$ cd diagnostics
+cd ~
+mkdir wdi
+cd wdi
+mkdir diagnostics
+cd diagnostics
 ```
 
 The first `cd ~` - change directory - ensures that you start in your home directory/folder.
@@ -57,21 +57,20 @@ Click the 'Copy to clipboard' button.
 Back in the terminal (you should still be in the `diagnostics` directory created above):
 
 ```sh
-$ git clone
+git clone
 ```
 
 Then paste the copied clone URL, run the command, and change into the newly created directory:
 
 ```sh
-$ git clone git@github.com:<GitHub username>/fundamentals-diagnostic.git
+git clone git@github.com:<GitHub username>/fundamentals-diagnostic.git
 Cloning into 'fundamentals-diagnostic'...
 remote: Counting objects: 5, done.
 remote: Compressing objects: 100% (5/5), done.
 remote: Total 5 (delta 0), reused 4 (delta 0), pack-reused 0
 Receiving objects: 100% (5/5), done.
 Checking connectivity... done.
-$ cd fundamentals-diagnostic
-$
+cd fundamentals-diagnostic
 ```
 
 ### Complete Diagnostic
@@ -79,10 +78,10 @@ $
 Create a `response` branch then open `diagnostic.md` with atom.
 
 ```sh
-$ git branch response
-$ git checkout response
+git branch response
+git checkout response
 Switched to branch 'response'
-$ atom diagnostic.md
+atom diagnostic.md
 ```
 
 You may use any resource, other than someone else in the workspace, to help you complete the diagnostic.
@@ -97,7 +96,7 @@ You should delete `_Replace this text with your answer._` following each questio
 #### Stage changed files
 
 ```sh
-$ git status
+git status
 On branch response
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -106,21 +105,20 @@ Changes not staged for commit:
 	modified:   diagnostic.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
-$ git add diagnostic.md
+git add diagnostic.md
 ```
 
 #### Create a git commit
 
 ```sh
-$ git status
+git status
 On branch response
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
 	modified:   diagnostic.md
 
-$ git commit
-
+git commit
 ```
 
 Atom will open a text file containing comment lines (starting with a `#`) describing the changes being committed.  These lines are not included in your commit message.
@@ -128,7 +126,7 @@ Atom will open a text file containing comment lines (starting with a `#`) descri
 Enter `Fundamentals diagnostic response` as the headline.  Leave a blank line then enter
 
 ```sh
-$ git commit
+git commit
 
 [response 29a63bc]
  1 file changed, 25 insertion(+), 6 deletion(-)
@@ -138,7 +136,7 @@ $
 #### Push changes to GitHub
 
 ```sh
-$ git push origin response
+git push origin response
 Counting objects: 3, done.
 Delta compression using up to 4 threads.
 Compressing objects: 100% (3/3), done.
