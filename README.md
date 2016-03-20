@@ -44,7 +44,7 @@ The first `cd ~` - change directory - ensures that you start in your home direct
 
 On GitHub, in your copy of the repository, find the clone URL widget - SSH/HTTPS drop-down, corresponding URL text-box, and `Copy to clipboard` button (centered in the following image).
 
-![Remotes](https://help.github.com/assets/images/help/repository/remotes-url.png)
+![Remotes](https://cloud.githubusercontent.com/assets/10408784/13907024/1ea37866-eebb-11e5-9a91-a1898e351c13.png)
 
 Before copying the clone URL to the clipboard, use the drop-down to select `SSH`. In [Which remote URL should I use?](https://help.github.com/articles/which-remote-url-should-i-use/) GitHub recommends using `https` remotes.  We will always use `ssh` remotes during your training.
 
