@@ -97,14 +97,21 @@ Switched to branch 'response'
 atom diagnostic.md
 ```
 
-You may use any resource, other than someone else in the workspace, to help you complete the diagnostic.
+You may use **ANY** resource, other than someone else in the workspace, to help
+you complete the diagnostic.
 
 Rendered markdown may be viewed by following [this link](diagnostic.md).
 
-You should delete `_Replace this text with your answer._` following each questions and replace it with your answer.  Code answers need not be in markdown.
+You should delete `_Replace this text with your answer._` following each
+questions and replace it with your answer.  Code answers need not be in
+markdown.
+
+Please start to review any linter errors you may see. The error will inform you
+what the error is and which line and column number the error is located. Linters
+help us to write clean, symantically correct code so we should start to pay
+attention to what the errors are telling us.
 
 ### 3) Turn in Diagnostic
-
 
 #### Stage changed files
 
@@ -115,13 +122,20 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   diagnostic.md
+modified:   diagnostic.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+In order to stage these changes, we need to add the file that has changed:
+
+```sh
 git add diagnostic.md
 ```
 
 #### Create a git commit
+
+Now that the changes have been staged, we have to make a commit:
 
 ```sh
 git status
@@ -129,14 +143,35 @@ On branch response
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
-	modified:   diagnostic.md
+modified:   diagnostic.md
+```
 
+```sh
 git commit
 ```
 
-Atom will open a text file containing comment lines (starting with a `#`) describing the changes being committed.  These lines are not included in your commit message.
+When a 'git commit' is executed, Atom will open a text file containing comment
+lines (starting with a `#`) describing the changes being committed.  These lines
+are not included in your commit message.
 
-Enter `Fundamentals diagnostic response` as the headline.  Leave a blank line then enter
+Format for submitting 'git commit' messages.
+
+```sh
+<headline of the commit>
+
+<description of the commit>
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch bb-prep
+# Changes to be committed:
+# modified:   diagnostic.md
+#
+```
+
+Enter `Fundamentals diagnostic response` as the headline. Hit enter **twice** to
+leave a blank line. Add a description to the commit message. Once your
+description is complete, save the file and close the Atom window. This will
+commit the message. When you go back to terminal, you should see something like:
 
 ```sh
 git commit
@@ -147,6 +182,8 @@ $
 ```
 
 #### Push changes to GitHub
+
+Now, push the changes to your forked repository on Github.
 
 ```sh
 git push origin response
@@ -162,14 +199,21 @@ $
 
 #### Create a Pull Request
 
-We'll follow the GitHub help article, [Creating a pull request](https://help.github.com/articles/creating-a-pull-request/) skipping step 4.
+We'll follow the GitHub help article, [Creating a pull
+request](https://help.github.com/articles/creating-a-pull-request/) skipping
+step 4.
+
+**Congratulations**, you have successfully submitted your first diagnostic by
+opening a pull request! This is the process we will follow for **every*
+diagnostic. The consultant team will respond to your pull request with feedback
+on the answers to the diagnostic.
 
 ## Additional resources
 
 Additional GitHub help articles.
 
-- [Fork A Repo](https://help.github.com/articles/fork-a-repo/)
-- [Cloning a repository](https://help.github.com/articles/cloning-a-repository/)
+-   [Fork A Repo](https://help.github.com/articles/fork-a-repo/)
+-   [Cloning a repository](https://help.github.com/articles/cloning-a-repository/)
 
 ## [License](LICENSE)
 
