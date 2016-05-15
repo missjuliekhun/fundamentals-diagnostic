@@ -61,7 +61,7 @@ training.
 
 Click the 'Copy to clipboard' button.
 
-![Copy clone URL to clipboard](https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png)
+![Copy clone URL to clipboard](https://cloud.githubusercontent.com/assets/8379295/15277267/c00d03b0-1acc-11e6-97bb-70e52ffdfd44.png)
 
 **Remember** it should say `SSH` in the drop-down when you do.
 
