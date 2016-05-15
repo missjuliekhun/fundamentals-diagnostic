@@ -12,9 +12,11 @@ For the diagnostic itself, you have 30 minutes.
 
 #### Open the repository on github.com
 
-If necessary, login to GitHub.  If you are not logged in, the `Sign in` button will be at the top right of the page when you navigate to https://github.com.
-
 Navigate to this repository in Chrome.  The URL should be in slack forum.
+
+If necessary, login to GitHub.  If you are not logged in, the `Sign in` button
+will be at the top right of the page when you navigate to
+[Github](https://github.com.)
 
 #### Fork the repository
 
@@ -36,17 +38,26 @@ mkdir diagnostics
 cd diagnostics
 ```
 
-The first `cd ~` - change directory - ensures that you start in your home directory/folder.
+The first `cd ~` - change directory - ensures that you start in your home
+directory/folder.
 
-`mkdir` creates a new directory/folder with the supplied name.  If you get an error message that includes `File exists` when you run `mkdir` it probably means you've already created the directory and can move on to the following `cd`.
+`mkdir` creates a new directory/folder with the supplied name.  If you get an
+error message that includes `File exists` when you run `mkdir` it probably means
+you've already created the directory and can move on to the following `cd`.
 
 #### Clone the repository
 
-On GitHub, in your copy of the repository, find the clone URL widget - SSH/HTTPS drop-down, corresponding URL text-box, and `Copy to clipboard` button (centered in the following image).
+On GitHub, in your copy of the repository, find the clone URL widget - SSH/HTTPS
+drop-down, corresponding URL text-box, and `Copy to clipboard` button (centered
+in the following image).
 
 ![Remotes](https://cloud.githubusercontent.com/assets/10408784/13907024/1ea37866-eebb-11e5-9a91-a1898e351c13.png)
 
-Before copying the clone URL to the clipboard, use the drop-down to select `SSH`. In [Which remote URL should I use?](https://help.github.com/articles/which-remote-url-should-i-use/) GitHub recommends using `https` remotes.  We will always use `ssh` remotes during your training.
+Before copying the clone URL to the clipboard, use the drop-down to select
+`SSH`. In [Which remote URL should I
+use?](https://help.github.com/articles/which-remote-url-should-i-use/) GitHub
+recommends using `https` remotes.  We will always use `ssh` remotes during your
+training.
 
 Click the 'Copy to clipboard' button.
 
@@ -54,13 +65,15 @@ Click the 'Copy to clipboard' button.
 
 **Remember** it should say `SSH` in the drop-down when you do.
 
-Back in the terminal (you should still be in the `diagnostics` directory created above):
+Back in the terminal (you should still be in the `diagnostics` directory created
+above):
 
 ```sh
 git clone
 ```
 
-Then paste the copied clone URL, run the command, and change into the newly created directory:
+Then paste the copied clone URL, run the command, and change into the newly
+created directory:
 
 ```sh
 git clone git@github.com:<GitHub username>/fundamentals-diagnostic.git
