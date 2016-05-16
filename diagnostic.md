@@ -91,6 +91,7 @@ var teamMember = {
 };
 ```
 
-What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of `teamMember['name']['surname']`?
+What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
+`teamMember['name']['surname']`?
 
 _Replace this text with your answer._
