@@ -22,7 +22,7 @@ _Replace this text with your answer._
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+stuff
 
 ## Question 3
 
