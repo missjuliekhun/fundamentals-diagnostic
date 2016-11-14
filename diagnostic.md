@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is an online platform where users can host Git respository as well as connect/share content and network with other Git users.
 
 ## Question 3
 
@@ -32,7 +32,9 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+The value of this expression is false because the Logical OR is FALSE and the Logical AND is false.
+
+
 
 ## Question 4
 
@@ -45,7 +47,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+This loop runs once because the condition of this block of code is false.
 
 ## Question 5
 
@@ -76,7 +78,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+The value is 3
 
 ## Question 7
 
@@ -94,4 +96,4 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+The value of hobby is 'exercise'; team member name: Jason; Weeks
